@@ -1,0 +1,27 @@
+footer {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  overflow: hidden;
+}
+
+.footer-list {
+  display: flex;
+  flex: 1;
+}
+
+.footer-list li {
+  list-style-type: none;
+  padding: 1.5rem;
+}
+
+.footer-list a {
+  text-decoration: none;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}

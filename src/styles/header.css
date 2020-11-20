@@ -1,0 +1,26 @@
+.header-list {
+  display: flex;
+  flex: 1;
+}
+
+.header-list li {
+  list-style-type: none;
+  padding: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header-list li:nth-child(2) {
+  padding-right: 3rem;
+}
+
+.header-list li:last-child {
+  background-color: #315c14;
+  padding: 1.5rem 3rem;
+}

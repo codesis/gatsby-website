@@ -1,0 +1,35 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.column-div {
+  text-align: left;
+  padding: 4rem;
+  position: absolute;
+  width: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column-headline {
+  color: #315c14;
+  font-weight: 100;
+  font-size: 50px;
+  padding-bottom: 1rem;
+}
+
+.column-text {
+  padding-bottom: 3rem;
+}
+
+.column-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 1rem 6rem;
+  border: 1px solid #b0c7a1;
+}
