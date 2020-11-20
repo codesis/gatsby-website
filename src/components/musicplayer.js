@@ -5,7 +5,7 @@ export default function Music() {
     <iframe
       title="Spotify"
       src="https://open.spotify.com/embed/playlist/05772FSLnb4H8OLAuEV5eD?si=sDyRQuw6RUKHjs1E3ojz9A"
-      width="400"
+      width="80"
       height="80"
       allow="encrypted-media"
       allowTransparency="true"

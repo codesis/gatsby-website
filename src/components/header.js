@@ -16,7 +16,7 @@ const Header = ({ navLinks }) => (
           alignItems: "center",
         }}
       >
-        <h1 style={{ margin: 0, flex: 1, paddingLeft: "3rem" }}>
+        <h1 style={{ margin: 0, flex: 1, paddingLeft: "1rem" }}>
           <Link
             to="/"
             style={{
@@ -30,7 +30,6 @@ const Header = ({ navLinks }) => (
                 flex: 1,
                 width: "40px",
                 height: "40px",
-                marginTop: "1rem",
               }}
             />
           </Link>
@@ -42,7 +41,7 @@ const Header = ({ navLinks }) => (
                 if (i < 1) {
                   return (
                     <li key={link.name}>
-                      <Link style={{ color: "black" }} to={link.link}>
+                      <Link style={{ color: "#D1C6AC" }} to={link.link}>
                         {link.name}
                       </Link>
                     </li>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import Tree from "../assets/tree.svg"
+import Music from "./musicplayer"
 import "../styles/footer.css"
 
 const Footer = ({ footLinks }) => (
@@ -17,17 +17,9 @@ const Footer = ({ footLinks }) => (
           alignItems: "center",
         }}
       >
-        <h1 style={{ margin: 0, flex: 1, paddingLeft: "3rem" }}>
-          <Link to="/">
-            <Tree
-              style={{
-                margin: 0,
-                flex: 1,
-                width: "40px",
-                height: "40px",
-                marginTop: "1rem",
-              }}
-            />
+        <h1 style={{ margin: 0, flex: 1 }}>
+          <Link to="/" style={{ color: "black" }}>
+            <Music uri="spotify:playlist:05772FSLnb4H8OLAuEV5eD" />
           </Link>
         </h1>
         <div>
@@ -37,7 +29,7 @@ const Footer = ({ footLinks }) => (
                 <li key={link.name}>
                   <Link
                     style={{
-                      color: "white",
+                      color: "#1A2721",
                       margin: "0.5rem",
                     }}
                     to={link.link}

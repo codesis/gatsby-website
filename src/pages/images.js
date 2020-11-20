@@ -9,7 +9,6 @@ export default function Images() {
   return (
     <Layout headline={"Christmas all around"}>
       <Row>
-        <Column1 background={"darkgray"}></Column1>
         <Column2
           columnHeadline={"Contact"}
           columnText={
@@ -18,6 +17,7 @@ export default function Images() {
           buttonLink={"/contact"}
           buttonText={"Contact me"}
         ></Column2>
+        <Column1></Column1>
       </Row>
     </Layout>
   )

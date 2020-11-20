@@ -1,5 +1,7 @@
+header {
+  background-color: #3c5548;
+}
 .header-list {
-  display: flex;
   flex: 1;
 }
 
@@ -21,6 +23,5 @@ a:hover {
 }
 
 .header-list li:last-child {
-  background-color: #315c14;
   padding: 1.5rem 3rem;
 }

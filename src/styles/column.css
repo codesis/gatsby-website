@@ -16,7 +16,7 @@
 }
 
 .column-headline {
-  color: #315c14;
+  color: #d1c6ac;
   font-weight: 100;
   font-size: 50px;
   padding-bottom: 1rem;
@@ -24,12 +24,13 @@
 
 .column-text {
   padding-bottom: 3rem;
+  color: #787461;
 }
 
 .column-link {
   text-decoration: none;
-  color: black;
-  font-weight: 600;
+  color: #a45818;
+  font-weight: 100;
   padding: 1rem 6rem;
-  border: 1px solid #b0c7a1;
+  border: 1px solid #3c5548;
 }
