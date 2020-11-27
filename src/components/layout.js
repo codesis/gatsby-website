@@ -35,15 +35,23 @@ const Layout = ({ headline, children }) => (
         <Headline headline={headline} />
         <div
           style={{
-            margin: "0 auto",
-            maxWidth: "100%",
-            padding: "0",
-            paddingTop: 0,
+            position: "relative",
+            minHeight: "70vh",
           }}
         >
-          {children}
+          <div
+            style={{
+              paddingBottom: "80px",
+              margin: "0 auto",
+              maxWidth: "100%",
+              padding: "0",
+              paddingTop: 0,
+            }}
+          >
+            {children}
+          </div>
+          <Footer footLinks={data.site.siteMetadata.footLinks} />
         </div>
-        <Footer footLinks={data.site.siteMetadata.footLinks} />
       </React.Fragment>
     )}
   />
