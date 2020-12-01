@@ -36,7 +36,7 @@ const Layout = ({ headline, children }) => (
         <div
           style={{
             position: "relative",
-            minHeight: "70vh",
+            minHeight: "100vh",
           }}
         >
           <div
@@ -49,8 +49,8 @@ const Layout = ({ headline, children }) => (
             }}
           >
             {children}
+            <Footer footLinks={data.site.siteMetadata.footLinks} />
           </div>
-          <Footer footLinks={data.site.siteMetadata.footLinks} />
         </div>
       </React.Fragment>
     )}
